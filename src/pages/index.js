@@ -2,12 +2,19 @@ import React from "react"
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { Head } from '@components'
+import Main from "../components/main"
 
 
 // markup
-const IndexPage = () => {
-  return (
+const IndexPage = ({ location }) => {
+  return ( 
+  <>
     <Head></Head>
+    <Main  location={location}>
+
+    </Main>
+  </>
+    
   )
 }
 
