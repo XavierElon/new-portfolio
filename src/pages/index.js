@@ -7,7 +7,7 @@ import { Head } from '@components'
 // markup
 const IndexPage = () => {
   return (
-    <h1>Hi</h1>
+    <Head></Head>
   )
 }
 
