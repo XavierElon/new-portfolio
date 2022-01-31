@@ -9,7 +9,6 @@ import Main from "../components/main"
 const IndexPage = ({ location }) => {
   return ( 
   <>
-    <Head></Head>
     <Main  location={location}>
 
     </Main>

@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import matrix from './matrix.gif'
 
 const GlobalStyle = createGlobalStyle`
     body { 
